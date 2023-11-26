@@ -1,0 +1,50 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    background-color: #eaeef3;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .main {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #0b2c4d;
+    margin-bottom: 30px;
+  }
+  
+  .memo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .memo-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 100px; 
+    overflow-wrap: break-word; 
+
+  }
+  
+  .memo-card p {
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      width: 95%;
+    }
+  }
+  
